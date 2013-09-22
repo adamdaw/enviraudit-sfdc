@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "path": "/Users/thanatos/Projects/HackCity"
+        }
+    ], 
+    "settings": {
+        "auto_complete_triggers": [
+            {
+                "characters": ".", 
+                "selector": "source"
+            }, 
+            {
+                "characters": ":", 
+                "selector": "text.html"
+            }, 
+            {
+                "characters": "<", 
+                "selector": "text.html"
+            }, 
+            {
+                "characters": " ", 
+                "selector": "text.html"
+            }
+        ]
+    }
+}

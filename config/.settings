@@ -1,0 +1,17 @@
+{
+    "username": "adamhackcity@adamdaw.com", 
+    "project_name": "HackCity", 
+    "namespace": "", 
+    "metadata_container": "1dci0000000QivHAAS", 
+    "environment": "developer", 
+    "id": "WHC1YDJ7NH833YJKEAYQJET899KXFS7C", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "CustomObject", 
+        "Profile", 
+        "StaticResource"
+    ]
+}

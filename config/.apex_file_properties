@@ -1,0 +1,3321 @@
+{
+    "AnalyzeResponse.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 11:09:08", 
+        "fileName": "unpackaged/classes/AnalyzeResponse.cls", 
+        "fullName": "AnalyzeResponse", 
+        "id": "01pi0000003H8AvAAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 11:22:02", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "BPDUtils.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 09:24:27", 
+        "fileName": "unpackaged/classes/BPDUtils.cls", 
+        "fullName": "BPDUtils", 
+        "id": "01pi0000003H82vAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 22:05:38", 
+        "manageableState": "unmanaged", 
+        "symbolTable": {
+            "constructors": [], 
+            "externalReferences": [
+                {
+                    "methods": [], 
+                    "name": "AnalyzeResponse", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 16, 
+                            "line": 3
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 8
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 44
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 51
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 58
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 65
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 72
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 79
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 86
+                        }
+                    ], 
+                    "variables": [
+                        {
+                            "name": "mean", 
+                            "references": [
+                                {
+                                    "column": 154, 
+                                    "line": 46
+                                }, 
+                                {
+                                    "column": 169, 
+                                    "line": 53
+                                }, 
+                                {
+                                    "column": 183, 
+                                    "line": 60
+                                }, 
+                                {
+                                    "column": 163, 
+                                    "line": 67
+                                }, 
+                                {
+                                    "column": 158, 
+                                    "line": 74
+                                }, 
+                                {
+                                    "column": 159, 
+                                    "line": 81
+                                }, 
+                                {
+                                    "column": 167, 
+                                    "line": 88
+                                }
+                            ]
+                        }, 
+                        {
+                            "name": "number_of_matching_buildings", 
+                            "references": [
+                                {
+                                    "column": 210, 
+                                    "line": 46
+                                }, 
+                                {
+                                    "column": 25, 
+                                    "line": 45
+                                }, 
+                                {
+                                    "column": 225, 
+                                    "line": 53
+                                }, 
+                                {
+                                    "column": 25, 
+                                    "line": 52
+                                }, 
+                                {
+                                    "column": 239, 
+                                    "line": 60
+                                }, 
+                                {
+                                    "column": 25, 
+                                    "line": 59
+                                }, 
+                                {
+                                    "column": 219, 
+                                    "line": 67
+                                }, 
+                                {
+                                    "column": 25, 
+                                    "line": 66
+                                }, 
+                                {
+                                    "column": 214, 
+                                    "line": 74
+                                }, 
+                                {
+                                    "column": 25, 
+                                    "line": 73
+                                }, 
+                                {
+                                    "column": 215, 
+                                    "line": 81
+                                }, 
+                                {
+                                    "column": 25, 
+                                    "line": 80
+                                }, 
+                                {
+                                    "column": 223, 
+                                    "line": 88
+                                }, 
+                                {
+                                    "column": 25, 
+                                    "line": 87
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "methods": [
+                        {
+                            "argTypes": [], 
+                            "name": "deserialize", 
+                            "parameters": [], 
+                            "references": [
+                                {
+                                    "column": 56, 
+                                    "line": 8
+                                }
+                            ], 
+                            "returnType": null
+                        }, 
+                        {
+                            "argTypes": [], 
+                            "name": "serializePretty", 
+                            "parameters": [], 
+                            "references": [
+                                {
+                                    "column": 27, 
+                                    "line": 42
+                                }, 
+                                {
+                                    "column": 27, 
+                                    "line": 49
+                                }, 
+                                {
+                                    "column": 27, 
+                                    "line": 56
+                                }, 
+                                {
+                                    "column": 27, 
+                                    "line": 63
+                                }, 
+                                {
+                                    "column": 27, 
+                                    "line": 70
+                                }, 
+                                {
+                                    "column": 27, 
+                                    "line": 77
+                                }, 
+                                {
+                                    "column": 27, 
+                                    "line": 84
+                                }, 
+                                {
+                                    "column": 15, 
+                                    "line": 98
+                                }
+                            ], 
+                            "returnType": null
+                        }
+                    ], 
+                    "name": "JSON", 
+                    "namespace": "system", 
+                    "references": [
+                        {
+                            "column": 51, 
+                            "line": 8
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 42
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 49
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 56
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 63
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 70
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 77
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 84
+                        }, 
+                        {
+                            "column": 10, 
+                            "line": 98
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter1", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 47, 
+                            "line": 42
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter2", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 47, 
+                            "line": 49
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter3", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 47, 
+                            "line": 56
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter4", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 47, 
+                            "line": 63
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter5", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 47, 
+                            "line": 70
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter6", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 47, 
+                            "line": 77
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter7", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 47, 
+                            "line": 84
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 35, 
+                            "line": 98
+                        }
+                    ], 
+                    "variables": []
+                }
+            ], 
+            "id": "01pi0000003H82v", 
+            "innerClasses": [], 
+            "key": "01pi0000003H82v", 
+            "methods": [
+                {
+                    "location": {
+                        "column": 32, 
+                        "line": 3
+                    }, 
+                    "modifiers": [
+                        "STATIC"
+                    ], 
+                    "name": "peerAnalysisResponse", 
+                    "parameters": [
+                        {
+                            "name": "req", 
+                            "type": "HttpRequest"
+                        }
+                    ], 
+                    "references": [
+                        {
+                            "column": 49, 
+                            "line": 44
+                        }, 
+                        {
+                            "column": 49, 
+                            "line": 51
+                        }, 
+                        {
+                            "column": 49, 
+                            "line": 58
+                        }, 
+                        {
+                            "column": 49, 
+                            "line": 65
+                        }, 
+                        {
+                            "column": 49, 
+                            "line": 72
+                        }, 
+                        {
+                            "column": 49, 
+                            "line": 79
+                        }, 
+                        {
+                            "column": 49, 
+                            "line": 86
+                        }
+                    ], 
+                    "returnType": "AnalyzeResponse", 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 28, 
+                        "line": 12
+                    }, 
+                    "modifiers": [
+                        "STATIC"
+                    ], 
+                    "name": "peerAnalysisRequest", 
+                    "parameters": [
+                        {
+                            "name": "buildingString", 
+                            "type": "String"
+                        }
+                    ], 
+                    "references": [
+                        {
+                            "column": 36, 
+                            "line": 43
+                        }, 
+                        {
+                            "column": 36, 
+                            "line": 50
+                        }, 
+                        {
+                            "column": 36, 
+                            "line": 57
+                        }, 
+                        {
+                            "column": 36, 
+                            "line": 64
+                        }, 
+                        {
+                            "column": 36, 
+                            "line": 71
+                        }, 
+                        {
+                            "column": 36, 
+                            "line": 78
+                        }, 
+                        {
+                            "column": 36, 
+                            "line": 85
+                        }
+                    ], 
+                    "returnType": "HttpRequest", 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 28, 
+                        "line": 23
+                    }, 
+                    "modifiers": [
+                        "STATIC"
+                    ], 
+                    "name": "comparisonRequest", 
+                    "parameters": [
+                        {
+                            "name": "filterString", 
+                            "type": "String"
+                        }, 
+                        {
+                            "name": "buildingSystem", 
+                            "type": "String"
+                        }, 
+                        {
+                            "name": "fromString", 
+                            "type": "String"
+                        }, 
+                        {
+                            "name": "toString", 
+                            "type": "String"
+                        }
+                    ], 
+                    "references": [], 
+                    "returnType": "HttpRequest", 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 35
+                    }, 
+                    "modifiers": [
+                        "STATIC"
+                    ], 
+                    "name": "getPeerData", 
+                    "parameters": [
+                        {
+                            "name": "buildingId", 
+                            "type": "String"
+                        }
+                    ], 
+                    "references": [], 
+                    "returnType": "void", 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 23, 
+                        "line": 97
+                    }, 
+                    "modifiers": [
+                        "STATIC"
+                    ], 
+                    "name": "getBuildingString", 
+                    "parameters": [
+                        {
+                            "name": "building", 
+                            "type": "Building__c"
+                        }
+                    ], 
+                    "references": [], 
+                    "returnType": "String", 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "name": "BPDUtils", 
+            "namespace": null, 
+            "properties": [], 
+            "tableDeclaration": {
+                "location": {
+                    "column": 14, 
+                    "line": 1
+                }, 
+                "modifiers": [], 
+                "name": "BPDUtils", 
+                "references": [
+                    {
+                        "column": 27, 
+                        "line": 43
+                    }, 
+                    {
+                        "column": 40, 
+                        "line": 44
+                    }, 
+                    {
+                        "column": 27, 
+                        "line": 50
+                    }, 
+                    {
+                        "column": 40, 
+                        "line": 51
+                    }, 
+                    {
+                        "column": 27, 
+                        "line": 57
+                    }, 
+                    {
+                        "column": 40, 
+                        "line": 58
+                    }, 
+                    {
+                        "column": 27, 
+                        "line": 64
+                    }, 
+                    {
+                        "column": 40, 
+                        "line": 65
+                    }, 
+                    {
+                        "column": 27, 
+                        "line": 71
+                    }, 
+                    {
+                        "column": 40, 
+                        "line": 72
+                    }, 
+                    {
+                        "column": 27, 
+                        "line": 78
+                    }, 
+                    {
+                        "column": 40, 
+                        "line": 79
+                    }, 
+                    {
+                        "column": 27, 
+                        "line": 85
+                    }, 
+                    {
+                        "column": 40, 
+                        "line": 86
+                    }
+                ], 
+                "type": "BPDUtils"
+            }, 
+            "variables": [
+                {
+                    "location": {
+                        "column": 65, 
+                        "line": 3
+                    }, 
+                    "modifiers": [], 
+                    "name": "req", 
+                    "references": [
+                        {
+                            "column": 16, 
+                            "line": 5
+                        }, 
+                        {
+                            "column": 32, 
+                            "line": 6
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 8, 
+                        "line": 4
+                    }, 
+                    "modifiers": [], 
+                    "name": "http", 
+                    "references": [
+                        {
+                            "column": 22, 
+                            "line": 6
+                        }
+                    ], 
+                    "type": "Http"
+                }, 
+                {
+                    "location": {
+                        "column": 16, 
+                        "line": 6
+                    }, 
+                    "modifiers": [], 
+                    "name": "res", 
+                    "references": [
+                        {
+                            "column": 16, 
+                            "line": 7
+                        }, 
+                        {
+                            "column": 68, 
+                            "line": 8
+                        }
+                    ], 
+                    "type": "HttpResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 19, 
+                        "line": 8
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerResponse", 
+                    "references": [
+                        {
+                            "column": 10, 
+                            "line": 9
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 55, 
+                        "line": 12
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildingString", 
+                    "references": [
+                        {
+                            "column": 32, 
+                            "line": 19
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 15, 
+                        "line": 13
+                    }, 
+                    "modifiers": [], 
+                    "name": "req", 
+                    "references": [
+                        {
+                            "column": 3, 
+                            "line": 14
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 15
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 17
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 18
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 19
+                        }, 
+                        {
+                            "column": 10, 
+                            "line": 20
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 15, 
+                        "line": 16
+                    }, 
+                    "modifiers": [], 
+                    "name": "creds", 
+                    "references": [
+                        {
+                            "column": 44, 
+                            "line": 18
+                        }, 
+                        {
+                            "column": 66, 
+                            "line": 18
+                        }
+                    ], 
+                    "type": "BPDCreds__c"
+                }, 
+                {
+                    "location": {
+                        "column": 53, 
+                        "line": 23
+                    }, 
+                    "modifiers": [], 
+                    "name": "filterString", 
+                    "references": [
+                        {
+                            "column": 32, 
+                            "line": 30
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 74, 
+                        "line": 23
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildingSystem", 
+                    "references": [
+                        {
+                            "column": 73, 
+                            "line": 30
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 97, 
+                        "line": 23
+                    }, 
+                    "modifiers": [], 
+                    "name": "fromString", 
+                    "references": [
+                        {
+                            "column": 107, 
+                            "line": 30
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 116, 
+                        "line": 23
+                    }, 
+                    "modifiers": [], 
+                    "name": "toString", 
+                    "references": [
+                        {
+                            "column": 135, 
+                            "line": 30
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 15, 
+                        "line": 24
+                    }, 
+                    "modifiers": [], 
+                    "name": "req", 
+                    "references": [
+                        {
+                            "column": 3, 
+                            "line": 25
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 26
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 28
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 29
+                        }, 
+                        {
+                            "column": 3, 
+                            "line": 30
+                        }, 
+                        {
+                            "column": 10, 
+                            "line": 31
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 15, 
+                        "line": 27
+                    }, 
+                    "modifiers": [], 
+                    "name": "creds", 
+                    "references": [
+                        {
+                            "column": 44, 
+                            "line": 29
+                        }, 
+                        {
+                            "column": 66, 
+                            "line": 29
+                        }
+                    ], 
+                    "type": "BPDCreds__c"
+                }, 
+                {
+                    "location": {
+                        "column": 40, 
+                        "line": 35
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildingId", 
+                    "references": [
+                        {
+                            "column": 191, 
+                            "line": 36
+                        }, 
+                        {
+                            "column": 53, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 286, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 53, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 301, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 53, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 315, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 53, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 295, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 53, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 290, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 53, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 291, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 53, 
+                            "line": 88
+                        }, 
+                        {
+                            "column": 299, 
+                            "line": 88
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 15, 
+                        "line": 36
+                    }, 
+                    "modifiers": [], 
+                    "name": "building", 
+                    "references": [
+                        {
+                            "column": 91, 
+                            "line": 42
+                        }, 
+                        {
+                            "column": 149, 
+                            "line": 42
+                        }, 
+                        {
+                            "column": 91, 
+                            "line": 49
+                        }, 
+                        {
+                            "column": 149, 
+                            "line": 49
+                        }, 
+                        {
+                            "column": 206, 
+                            "line": 49
+                        }, 
+                        {
+                            "column": 255, 
+                            "line": 49
+                        }, 
+                        {
+                            "column": 91, 
+                            "line": 56
+                        }, 
+                        {
+                            "column": 149, 
+                            "line": 56
+                        }, 
+                        {
+                            "column": 206, 
+                            "line": 56
+                        }, 
+                        {
+                            "column": 255, 
+                            "line": 56
+                        }, 
+                        {
+                            "column": 303, 
+                            "line": 56
+                        }, 
+                        {
+                            "column": 91, 
+                            "line": 63
+                        }, 
+                        {
+                            "column": 138, 
+                            "line": 63
+                        }, 
+                        {
+                            "column": 187, 
+                            "line": 63
+                        }, 
+                        {
+                            "column": 91, 
+                            "line": 70
+                        }, 
+                        {
+                            "column": 132, 
+                            "line": 70
+                        }, 
+                        {
+                            "column": 91, 
+                            "line": 77
+                        }, 
+                        {
+                            "column": 133, 
+                            "line": 77
+                        }, 
+                        {
+                            "column": 91, 
+                            "line": 84
+                        }, 
+                        {
+                            "column": 132, 
+                            "line": 84
+                        }, 
+                        {
+                            "column": 167, 
+                            "line": 84
+                        }, 
+                        {
+                            "column": 25, 
+                            "line": 48
+                        }, 
+                        {
+                            "column": 25, 
+                            "line": 55
+                        }, 
+                        {
+                            "column": 61, 
+                            "line": 55
+                        }, 
+                        {
+                            "column": 25, 
+                            "line": 62
+                        }, 
+                        {
+                            "column": 25, 
+                            "line": 69
+                        }, 
+                        {
+                            "column": 25, 
+                            "line": 76
+                        }, 
+                        {
+                            "column": 25, 
+                            "line": 83
+                        }
+                    ], 
+                    "type": "Building__c"
+                }, 
+                {
+                    "location": {
+                        "column": 25, 
+                        "line": 37
+                    }, 
+                    "modifiers": [], 
+                    "name": "analyses", 
+                    "references": [
+                        {
+                            "column": 6, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 6, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 6, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 6, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 6, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 6, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 6, 
+                            "line": 88
+                        }, 
+                        {
+                            "column": 10, 
+                            "line": 94
+                        }
+                    ], 
+                    "type": "LIST"
+                }, 
+                {
+                    "location": {
+                        "column": 10, 
+                        "line": 38
+                    }, 
+                    "modifiers": [], 
+                    "name": "timestamp", 
+                    "references": [
+                        {
+                            "column": 111, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 126, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 140, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 120, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 115, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 116, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 124, 
+                            "line": 88
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 15, 
+                        "line": 39
+                    }, 
+                    "modifiers": [], 
+                    "name": "i", 
+                    "references": [
+                        {
+                            "column": 266, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 301, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 281, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 316, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 295, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 330, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 275, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 310, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 270, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 305, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 271, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 306, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 279, 
+                            "line": 88
+                        }, 
+                        {
+                            "column": 314, 
+                            "line": 88
+                        }, 
+                        {
+                            "column": 7, 
+                            "line": 41
+                        }, 
+                        {
+                            "column": 15, 
+                            "line": 48
+                        }, 
+                        {
+                            "column": 15, 
+                            "line": 55
+                        }, 
+                        {
+                            "column": 15, 
+                            "line": 62
+                        }, 
+                        {
+                            "column": 15, 
+                            "line": 69
+                        }, 
+                        {
+                            "column": 15, 
+                            "line": 76
+                        }, 
+                        {
+                            "column": 15, 
+                            "line": 83
+                        }, 
+                        {
+                            "column": 22, 
+                            "line": 39
+                        }, 
+                        {
+                            "column": 30, 
+                            "line": 39
+                        }
+                    ], 
+                    "type": "Integer"
+                }, 
+                {
+                    "location": {
+                        "column": 11, 
+                        "line": 40
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildingString", 
+                    "references": [
+                        {
+                            "column": 5, 
+                            "line": 42
+                        }, 
+                        {
+                            "column": 56, 
+                            "line": 43
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 49
+                        }, 
+                        {
+                            "column": 56, 
+                            "line": 50
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 56
+                        }, 
+                        {
+                            "column": 56, 
+                            "line": 57
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 63
+                        }, 
+                        {
+                            "column": 56, 
+                            "line": 64
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 70
+                        }, 
+                        {
+                            "column": 56, 
+                            "line": 71
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 77
+                        }, 
+                        {
+                            "column": 56, 
+                            "line": 78
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 84
+                        }, 
+                        {
+                            "column": 56, 
+                            "line": 85
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 43
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerReq", 
+                    "references": [
+                        {
+                            "column": 70, 
+                            "line": 44
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 44
+                    }, 
+                    "modifiers": [], 
+                    "name": "analysisResponse", 
+                    "references": [
+                        {
+                            "column": 137, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 193, 
+                            "line": 46
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 45
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 50
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerReq", 
+                    "references": [
+                        {
+                            "column": 70, 
+                            "line": 51
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 51
+                    }, 
+                    "modifiers": [], 
+                    "name": "analysisResponse", 
+                    "references": [
+                        {
+                            "column": 152, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 208, 
+                            "line": 53
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 52
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 57
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerReq", 
+                    "references": [
+                        {
+                            "column": 70, 
+                            "line": 58
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 58
+                    }, 
+                    "modifiers": [], 
+                    "name": "analysisResponse", 
+                    "references": [
+                        {
+                            "column": 166, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 222, 
+                            "line": 60
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 59
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 64
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerReq", 
+                    "references": [
+                        {
+                            "column": 70, 
+                            "line": 65
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 65
+                    }, 
+                    "modifiers": [], 
+                    "name": "analysisResponse", 
+                    "references": [
+                        {
+                            "column": 146, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 202, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 66
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 71
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerReq", 
+                    "references": [
+                        {
+                            "column": 70, 
+                            "line": 72
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 72
+                    }, 
+                    "modifiers": [], 
+                    "name": "analysisResponse", 
+                    "references": [
+                        {
+                            "column": 141, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 197, 
+                            "line": 74
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 73
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 78
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerReq", 
+                    "references": [
+                        {
+                            "column": 70, 
+                            "line": 79
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 79
+                    }, 
+                    "modifiers": [], 
+                    "name": "analysisResponse", 
+                    "references": [
+                        {
+                            "column": 142, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 198, 
+                            "line": 81
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 80
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 85
+                    }, 
+                    "modifiers": [], 
+                    "name": "peerReq", 
+                    "references": [
+                        {
+                            "column": 70, 
+                            "line": 86
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 86
+                    }, 
+                    "modifiers": [], 
+                    "name": "analysisResponse", 
+                    "references": [
+                        {
+                            "column": 150, 
+                            "line": 88
+                        }, 
+                        {
+                            "column": 206, 
+                            "line": 88
+                        }, 
+                        {
+                            "column": 8, 
+                            "line": 87
+                        }
+                    ], 
+                    "type": "AnalyzeResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 53, 
+                        "line": 97
+                    }, 
+                    "modifiers": [], 
+                    "name": "building", 
+                    "references": [
+                        {
+                            "column": 42, 
+                            "line": 98
+                        }
+                    ], 
+                    "type": "Building__c"
+                }
+            ]
+        }, 
+        "type": "ApexClass"
+    }, 
+    "BPDUtilsTest.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 09:24:46", 
+        "fileName": "unpackaged/classes/BPDUtilsTest.cls", 
+        "fullName": "BPDUtilsTest", 
+        "id": "01pi0000003H830AAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 09:24:46", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "BuildingAfter.trigger": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 09:24:07", 
+        "fileName": "unpackaged/triggers/BuildingAfter.trigger", 
+        "fullName": "BuildingAfter", 
+        "id": "01qi0000000NDPoAAO", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 15:13:06", 
+        "manageableState": "unmanaged", 
+        "type": "ApexTrigger"
+    }, 
+    "BuildingAfterTest.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 10:20:17", 
+        "fileName": "unpackaged/classes/BuildingAfterTest.cls", 
+        "fullName": "BuildingAfterTest", 
+        "id": "01pi0000003H899AAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 10:36:04", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "BuildingList.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 17:47:07", 
+        "fileName": "unpackaged/pages/BuildingList.page", 
+        "fullName": "BuildingList", 
+        "id": "066i0000002CcFWAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 17:47:07", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "Compare.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:33:30", 
+        "fileName": "unpackaged/pages/Compare.page", 
+        "fullName": "Compare", 
+        "id": "066i0000002Cc6rAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:33:30", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "CompareController.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:33:46", 
+        "fileName": "unpackaged/classes/CompareController.cls", 
+        "fullName": "CompareController", 
+        "id": "01pi0000003H8iKAAS", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-22 09:21:38", 
+        "manageableState": "unmanaged", 
+        "symbolTable": {
+            "constructors": [
+                {
+                    "location": {
+                        "column": 9, 
+                        "line": 9
+                    }, 
+                    "modifiers": [], 
+                    "name": "CompareController", 
+                    "parameters": [], 
+                    "references": [], 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "externalReferences": [
+                {
+                    "methods": [
+                        {
+                            "argTypes": [], 
+                            "name": "serializePretty", 
+                            "parameters": [], 
+                            "references": [
+                                {
+                                    "column": 34, 
+                                    "line": 58
+                                }, 
+                                {
+                                    "column": 34, 
+                                    "line": 66
+                                }
+                            ], 
+                            "returnType": null
+                        }, 
+                        {
+                            "argTypes": [], 
+                            "name": "deserialize", 
+                            "parameters": [], 
+                            "references": [
+                                {
+                                    "column": 64, 
+                                    "line": 63
+                                }, 
+                                {
+                                    "column": 64, 
+                                    "line": 71
+                                }
+                            ], 
+                            "returnType": null
+                        }
+                    ], 
+                    "name": "JSON", 
+                    "namespace": "system", 
+                    "references": [
+                        {
+                            "column": 29, 
+                            "line": 58
+                        }, 
+                        {
+                            "column": 59, 
+                            "line": 63
+                        }, 
+                        {
+                            "column": 29, 
+                            "line": 66
+                        }, 
+                        {
+                            "column": 59, 
+                            "line": 71
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter5", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 54, 
+                            "line": 58
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [
+                        {
+                            "argTypes": [], 
+                            "name": "comparisonRequest", 
+                            "parameters": [], 
+                            "references": [
+                                {
+                                    "column": 40, 
+                                    "line": 59
+                                }, 
+                                {
+                                    "column": 40, 
+                                    "line": 67
+                                }
+                            ], 
+                            "returnType": null
+                        }
+                    ], 
+                    "name": "BPDUtils", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 31, 
+                            "line": 59
+                        }, 
+                        {
+                            "column": 31, 
+                            "line": 67
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "ComparisonResponse", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 5, 
+                            "line": 63
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 71
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "FilterComparison", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 25, 
+                            "line": 64
+                        }, 
+                        {
+                            "column": 25, 
+                            "line": 72
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Filter6", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 54, 
+                            "line": 66
+                        }
+                    ], 
+                    "variables": []
+                }
+            ], 
+            "id": "01pi0000003H8iK", 
+            "innerClasses": [], 
+            "key": "01pi0000003H8iK", 
+            "methods": [
+                {
+                    "location": {
+                        "column": 29, 
+                        "line": 16
+                    }, 
+                    "modifiers": [
+                        "STATIC"
+                    ], 
+                    "name": "getOptions", 
+                    "parameters": [
+                        {
+                            "name": "build_system", 
+                            "type": "String"
+                        }
+                    ], 
+                    "references": [], 
+                    "returnType": "LIST", 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 39, 
+                        "line": 53
+                    }, 
+                    "modifiers": [
+                        "STATIC"
+                    ], 
+                    "name": "getComparisons", 
+                    "parameters": [
+                        {
+                            "name": "buildId", 
+                            "type": "String"
+                        }, 
+                        {
+                            "name": "buildval", 
+                            "type": "String"
+                        }, 
+                        {
+                            "name": "fromval", 
+                            "type": "String"
+                        }, 
+                        {
+                            "name": "toval", 
+                            "type": "String"
+                        }
+                    ], 
+                    "references": [], 
+                    "returnType": "LIST", 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "name": "CompareController", 
+            "namespace": null, 
+            "properties": [
+                {
+                    "location": {
+                        "column": 27, 
+                        "line": 3
+                    }, 
+                    "modifiers": [], 
+                    "name": "myBuildings", 
+                    "references": [
+                        {
+                            "column": 3, 
+                            "line": 10
+                        }
+                    ], 
+                    "type": "LIST", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 21, 
+                        "line": 4
+                    }, 
+                    "modifiers": [], 
+                    "name": "myBuilding", 
+                    "references": [
+                        {
+                            "column": 3, 
+                            "line": 11
+                        }
+                    ], 
+                    "type": "Building__c", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 16, 
+                        "line": 5
+                    }, 
+                    "modifiers": [], 
+                    "name": "build_system", 
+                    "references": [], 
+                    "type": "String", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 16, 
+                        "line": 6
+                    }, 
+                    "modifiers": [], 
+                    "name": "from_system", 
+                    "references": [], 
+                    "type": "String", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 16, 
+                        "line": 7
+                    }, 
+                    "modifiers": [], 
+                    "name": "to_system", 
+                    "references": [], 
+                    "type": "String", 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "tableDeclaration": {
+                "location": {
+                    "column": 27, 
+                    "line": 1
+                }, 
+                "modifiers": [], 
+                "name": "CompareController", 
+                "references": [], 
+                "type": "CompareController"
+            }, 
+            "variables": [
+                {
+                    "location": {
+                        "column": 47, 
+                        "line": 16
+                    }, 
+                    "modifiers": [], 
+                    "name": "build_system", 
+                    "references": [
+                        {
+                            "column": 6, 
+                            "line": 18
+                        }, 
+                        {
+                            "column": 14, 
+                            "line": 23
+                        }, 
+                        {
+                            "column": 14, 
+                            "line": 28
+                        }, 
+                        {
+                            "column": 14, 
+                            "line": 33
+                        }, 
+                        {
+                            "column": 14, 
+                            "line": 38
+                        }, 
+                        {
+                            "column": 14, 
+                            "line": 43
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 16, 
+                        "line": 17
+                    }, 
+                    "modifiers": [], 
+                    "name": "options", 
+                    "references": [
+                        {
+                            "column": 5, 
+                            "line": 20
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 25
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 30
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 35
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 40
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 45
+                        }, 
+                        {
+                            "column": 10, 
+                            "line": 49
+                        }
+                    ], 
+                    "type": "LIST"
+                }, 
+                {
+                    "location": {
+                        "column": 29, 
+                        "line": 19
+                    }, 
+                    "modifiers": [], 
+                    "name": "a", 
+                    "references": [
+                        {
+                            "column": 17, 
+                            "line": 20
+                        }
+                    ], 
+                    "type": "PicklistEntry"
+                }, 
+                {
+                    "location": {
+                        "column": 29, 
+                        "line": 24
+                    }, 
+                    "modifiers": [], 
+                    "name": "a", 
+                    "references": [
+                        {
+                            "column": 17, 
+                            "line": 25
+                        }
+                    ], 
+                    "type": "PicklistEntry"
+                }, 
+                {
+                    "location": {
+                        "column": 29, 
+                        "line": 29
+                    }, 
+                    "modifiers": [], 
+                    "name": "a", 
+                    "references": [
+                        {
+                            "column": 17, 
+                            "line": 30
+                        }
+                    ], 
+                    "type": "PicklistEntry"
+                }, 
+                {
+                    "location": {
+                        "column": 29, 
+                        "line": 34
+                    }, 
+                    "modifiers": [], 
+                    "name": "a", 
+                    "references": [
+                        {
+                            "column": 17, 
+                            "line": 35
+                        }
+                    ], 
+                    "type": "PicklistEntry"
+                }, 
+                {
+                    "location": {
+                        "column": 29, 
+                        "line": 39
+                    }, 
+                    "modifiers": [], 
+                    "name": "a", 
+                    "references": [
+                        {
+                            "column": 17, 
+                            "line": 40
+                        }
+                    ], 
+                    "type": "PicklistEntry"
+                }, 
+                {
+                    "location": {
+                        "column": 29, 
+                        "line": 44
+                    }, 
+                    "modifiers": [], 
+                    "name": "a", 
+                    "references": [
+                        {
+                            "column": 17, 
+                            "line": 45
+                        }
+                    ], 
+                    "type": "PicklistEntry"
+                }, 
+                {
+                    "location": {
+                        "column": 61, 
+                        "line": 53
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildId", 
+                    "references": [
+                        {
+                            "column": 441, 
+                            "line": 55
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 77, 
+                        "line": 53
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildval", 
+                    "references": [
+                        {
+                            "column": 74, 
+                            "line": 59
+                        }, 
+                        {
+                            "column": 74, 
+                            "line": 67
+                        }, 
+                        {
+                            "column": 35, 
+                            "line": 57
+                        }, 
+                        {
+                            "column": 43, 
+                            "line": 65
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 94, 
+                        "line": 53
+                    }, 
+                    "modifiers": [], 
+                    "name": "fromval", 
+                    "references": [
+                        {
+                            "column": 84, 
+                            "line": 59
+                        }, 
+                        {
+                            "column": 84, 
+                            "line": 67
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 110, 
+                        "line": 53
+                    }, 
+                    "modifiers": [], 
+                    "name": "toval", 
+                    "references": [
+                        {
+                            "column": 93, 
+                            "line": 59
+                        }, 
+                        {
+                            "column": 93, 
+                            "line": 67
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 26, 
+                        "line": 54
+                    }, 
+                    "modifiers": [], 
+                    "name": "comparisons", 
+                    "references": [
+                        {
+                            "column": 5, 
+                            "line": 64
+                        }, 
+                        {
+                            "column": 5, 
+                            "line": 72
+                        }, 
+                        {
+                            "column": 10, 
+                            "line": 75
+                        }
+                    ], 
+                    "type": "LIST"
+                }, 
+                {
+                    "location": {
+                        "column": 15, 
+                        "line": 55
+                    }, 
+                    "modifiers": [], 
+                    "name": "building", 
+                    "references": [
+                        {
+                            "column": 98, 
+                            "line": 58
+                        }, 
+                        {
+                            "column": 139, 
+                            "line": 58
+                        }, 
+                        {
+                            "column": 42, 
+                            "line": 64
+                        }, 
+                        {
+                            "column": 98, 
+                            "line": 66
+                        }, 
+                        {
+                            "column": 140, 
+                            "line": 66
+                        }, 
+                        {
+                            "column": 42, 
+                            "line": 72
+                        }, 
+                        {
+                            "column": 28, 
+                            "line": 56
+                        }
+                    ], 
+                    "type": "Building__c"
+                }, 
+                {
+                    "location": {
+                        "column": 23, 
+                        "line": 56
+                    }, 
+                    "modifiers": [], 
+                    "name": "ea", 
+                    "references": [
+                        {
+                            "column": 7, 
+                            "line": 57
+                        }, 
+                        {
+                            "column": 15, 
+                            "line": 65
+                        }
+                    ], 
+                    "type": "EUI_Analysis__c"
+                }, 
+                {
+                    "location": {
+                        "column": 12, 
+                        "line": 58
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildingString", 
+                    "references": [
+                        {
+                            "column": 58, 
+                            "line": 59
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 59
+                    }, 
+                    "modifiers": [], 
+                    "name": "compRequest", 
+                    "references": [
+                        {
+                            "column": 34, 
+                            "line": 61
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 10, 
+                        "line": 60
+                    }, 
+                    "modifiers": [], 
+                    "name": "http", 
+                    "references": [
+                        {
+                            "column": 24, 
+                            "line": 61
+                        }
+                    ], 
+                    "type": "Http"
+                }, 
+                {
+                    "location": {
+                        "column": 18, 
+                        "line": 61
+                    }, 
+                    "modifiers": [], 
+                    "name": "res", 
+                    "references": [
+                        {
+                            "column": 18, 
+                            "line": 62
+                        }, 
+                        {
+                            "column": 76, 
+                            "line": 63
+                        }
+                    ], 
+                    "type": "HttpResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 24, 
+                        "line": 63
+                    }, 
+                    "modifiers": [], 
+                    "name": "thisResponse", 
+                    "references": [
+                        {
+                            "column": 52, 
+                            "line": 64
+                        }
+                    ], 
+                    "type": "ComparisonResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 12, 
+                        "line": 66
+                    }, 
+                    "modifiers": [], 
+                    "name": "buildingString", 
+                    "references": [
+                        {
+                            "column": 58, 
+                            "line": 67
+                        }
+                    ], 
+                    "type": "String"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 67
+                    }, 
+                    "modifiers": [], 
+                    "name": "compRequest", 
+                    "references": [
+                        {
+                            "column": 34, 
+                            "line": 69
+                        }
+                    ], 
+                    "type": "HttpRequest"
+                }, 
+                {
+                    "location": {
+                        "column": 10, 
+                        "line": 68
+                    }, 
+                    "modifiers": [], 
+                    "name": "http", 
+                    "references": [
+                        {
+                            "column": 24, 
+                            "line": 69
+                        }
+                    ], 
+                    "type": "Http"
+                }, 
+                {
+                    "location": {
+                        "column": 18, 
+                        "line": 69
+                    }, 
+                    "modifiers": [], 
+                    "name": "res", 
+                    "references": [
+                        {
+                            "column": 18, 
+                            "line": 70
+                        }, 
+                        {
+                            "column": 76, 
+                            "line": 71
+                        }
+                    ], 
+                    "type": "HttpResponse"
+                }, 
+                {
+                    "location": {
+                        "column": 24, 
+                        "line": 71
+                    }, 
+                    "modifiers": [], 
+                    "name": "thisResponse", 
+                    "references": [
+                        {
+                            "column": 52, 
+                            "line": 72
+                        }
+                    ], 
+                    "type": "ComparisonResponse"
+                }
+            ]
+        }, 
+        "type": "ApexClass"
+    }, 
+    "ComparisonResponse.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 22:05:59", 
+        "fileName": "unpackaged/classes/ComparisonResponse.cls", 
+        "fullName": "ComparisonResponse", 
+        "id": "01pi0000003H8ypAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 22:11:33", 
+        "manageableState": "unmanaged", 
+        "symbolTable": {
+            "constructors": [], 
+            "externalReferences": [
+                {
+                    "methods": [], 
+                    "name": "Meta", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 9, 
+                            "line": 2
+                        }
+                    ], 
+                    "variables": []
+                }, 
+                {
+                    "methods": [], 
+                    "name": "Histogram", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 9, 
+                            "line": 3
+                        }
+                    ], 
+                    "variables": []
+                }
+            ], 
+            "id": "01pi0000003H8yp", 
+            "innerClasses": [], 
+            "key": "01pi0000003H8yp", 
+            "methods": [], 
+            "name": "ComparisonResponse", 
+            "namespace": null, 
+            "properties": [
+                {
+                    "location": {
+                        "column": 14, 
+                        "line": 2
+                    }, 
+                    "modifiers": [], 
+                    "name": "meta", 
+                    "references": [], 
+                    "type": "Meta", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 19, 
+                        "line": 3
+                    }, 
+                    "modifiers": [], 
+                    "name": "histogram", 
+                    "references": [], 
+                    "type": "Histogram", 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "tableDeclaration": {
+                "location": {
+                    "column": 14, 
+                    "line": 1
+                }, 
+                "modifiers": [], 
+                "name": "ComparisonResponse", 
+                "references": [], 
+                "type": "ComparisonResponse"
+            }, 
+            "variables": []
+        }, 
+        "type": "ApexClass"
+    }, 
+    "EUI_Distributions.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 11:14:49", 
+        "fileName": "unpackaged/classes/EUI_Distributions.cls", 
+        "fullName": "EUI_Distributions", 
+        "id": "01pi0000003H8BAAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 11:21:41", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "EnergyTrend.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 13:10:45", 
+        "fileName": "unpackaged/classes/EnergyTrend.cls", 
+        "fullName": "EnergyTrend", 
+        "id": "01pi0000003H8KTAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 13:11:23", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "EnergyTrendProperty.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 13:21:00", 
+        "fileName": "unpackaged/classes/EnergyTrendProperty.cls", 
+        "fullName": "EnergyTrendProperty", 
+        "id": "01pi0000003H8KYAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 13:22:11", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Enviraudit.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 17:35:11", 
+        "fileName": "unpackaged/pages/Enviraudit.page", 
+        "fullName": "Enviraudit", 
+        "id": "066i0000002CcFRAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 17:35:11", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "Filter.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 09:33:01", 
+        "fileName": "unpackaged/classes/Filter.cls", 
+        "fullName": "Filter", 
+        "id": "01pi0000003H84mAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 15:41:33", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Filter1.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 15:47:46", 
+        "fileName": "unpackaged/classes/Filter1.cls", 
+        "fullName": "Filter1", 
+        "id": "01pi0000003H8hlAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 15:48:24", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Filter2.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 15:52:27", 
+        "fileName": "unpackaged/classes/Filter2.cls", 
+        "fullName": "Filter2", 
+        "id": "01pi0000003H8hqAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 15:53:07", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Filter3.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 15:56:24", 
+        "fileName": "unpackaged/classes/Filter3.cls", 
+        "fullName": "Filter3", 
+        "id": "01pi0000003H8hvAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 15:57:40", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Filter4.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 15:59:45", 
+        "fileName": "unpackaged/classes/Filter4.cls", 
+        "fullName": "Filter4", 
+        "id": "01pi0000003H8i0AAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:00:21", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Filter5.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:12:49", 
+        "fileName": "unpackaged/classes/Filter5.cls", 
+        "fullName": "Filter5", 
+        "id": "01pi0000003H8i5AAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:18:16", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Filter6.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:19:42", 
+        "fileName": "unpackaged/classes/Filter6.cls", 
+        "fullName": "Filter6", 
+        "id": "01pi0000003H8iAAAS", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:26:10", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Filter7.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:27:45", 
+        "fileName": "unpackaged/classes/Filter7.cls", 
+        "fullName": "Filter7", 
+        "id": "01pi0000003H8iFAAS", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:28:29", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "FilterComparison.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 21:57:16", 
+        "fileName": "unpackaged/classes/FilterComparison.cls", 
+        "fullName": "FilterComparison", 
+        "id": "01pi0000003H8ykAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-22 09:21:30", 
+        "manageableState": "unmanaged", 
+        "symbolTable": {
+            "constructors": [
+                {
+                    "location": {
+                        "column": 9, 
+                        "line": 8
+                    }, 
+                    "modifiers": [], 
+                    "name": "FilterComparison", 
+                    "parameters": [
+                        {
+                            "name": "building", 
+                            "type": "Building__c"
+                        }, 
+                        {
+                            "name": "response", 
+                            "type": "ComparisonResponse"
+                        }
+                    ], 
+                    "references": [], 
+                    "type": null, 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "externalReferences": [
+                {
+                    "methods": [], 
+                    "name": "ComparisonResponse", 
+                    "namespace": null, 
+                    "references": [
+                        {
+                            "column": 48, 
+                            "line": 8
+                        }
+                    ], 
+                    "variables": [
+                        {
+                            "name": "change_ratio", 
+                            "references": [
+                                {
+                                    "column": 29, 
+                                    "line": 10
+                                }, 
+                                {
+                                    "column": 47, 
+                                    "line": 11
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "id": "01pi0000003H8yk", 
+            "innerClasses": [], 
+            "key": "01pi0000003H8yk", 
+            "methods": [], 
+            "name": "FilterComparison", 
+            "namespace": null, 
+            "properties": [
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 2
+                    }, 
+                    "modifiers": [], 
+                    "name": "previousEUI", 
+                    "references": [
+                        {
+                            "column": 8, 
+                            "line": 9
+                        }, 
+                        {
+                            "column": 60, 
+                            "line": 13
+                        }
+                    ], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 3
+                    }, 
+                    "modifiers": [], 
+                    "name": "changeVal", 
+                    "references": [
+                        {
+                            "column": 8, 
+                            "line": 10
+                        }
+                    ], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 4
+                    }, 
+                    "modifiers": [], 
+                    "name": "newEUI", 
+                    "references": [
+                        {
+                            "column": 8, 
+                            "line": 11
+                        }, 
+                        {
+                            "column": 77, 
+                            "line": 13
+                        }
+                    ], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 5
+                    }, 
+                    "modifiers": [], 
+                    "name": "previousCost", 
+                    "references": [
+                        {
+                            "column": 8, 
+                            "line": 12
+                        }
+                    ], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 6
+                    }, 
+                    "modifiers": [], 
+                    "name": "newCost", 
+                    "references": [
+                        {
+                            "column": 8, 
+                            "line": 13
+                        }
+                    ], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "tableDeclaration": {
+                "location": {
+                    "column": 27, 
+                    "line": 1
+                }, 
+                "modifiers": [], 
+                "name": "FilterComparison", 
+                "references": [], 
+                "type": "FilterComparison"
+            }, 
+            "variables": [
+                {
+                    "location": {
+                        "column": 38, 
+                        "line": 8
+                    }, 
+                    "modifiers": [], 
+                    "name": "building", 
+                    "references": [
+                        {
+                            "column": 22, 
+                            "line": 9
+                        }, 
+                        {
+                            "column": 17, 
+                            "line": 11
+                        }, 
+                        {
+                            "column": 23, 
+                            "line": 12
+                        }, 
+                        {
+                            "column": 18, 
+                            "line": 13
+                        }
+                    ], 
+                    "type": "Building__c"
+                }, 
+                {
+                    "location": {
+                        "column": 67, 
+                        "line": 8
+                    }, 
+                    "modifiers": [], 
+                    "name": "response", 
+                    "references": [
+                        {
+                            "column": 20, 
+                            "line": 10
+                        }, 
+                        {
+                            "column": 38, 
+                            "line": 11
+                        }
+                    ], 
+                    "type": "ComparisonResponse"
+                }
+            ]
+        }, 
+        "type": "ApexClass"
+    }, 
+    "FilterRange.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 09:37:40", 
+        "fileName": "unpackaged/classes/FilterRange.cls", 
+        "fullName": "FilterRange", 
+        "id": "01pi0000003H84rAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 10:42:21", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Histogram.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 22:06:50", 
+        "fileName": "unpackaged/classes/Histogram.cls", 
+        "fullName": "Histogram", 
+        "id": "01pi0000003H8yuAAC", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 22:11:13", 
+        "manageableState": "unmanaged", 
+        "symbolTable": {
+            "constructors": [], 
+            "externalReferences": [], 
+            "id": "01pi0000003H8yu", 
+            "innerClasses": [], 
+            "key": "01pi0000003H8yu", 
+            "methods": [], 
+            "name": "Histogram", 
+            "namespace": null, 
+            "properties": [
+                {
+                    "location": {
+                        "column": 23, 
+                        "line": 3
+                    }, 
+                    "modifiers": [], 
+                    "name": "bin_centers", 
+                    "references": [], 
+                    "type": "LIST", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 23, 
+                        "line": 4
+                    }, 
+                    "modifiers": [], 
+                    "name": "bin_lefts", 
+                    "references": [], 
+                    "type": "LIST", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 23, 
+                        "line": 5
+                    }, 
+                    "modifiers": [], 
+                    "name": "bin_counts", 
+                    "references": [], 
+                    "type": "LIST", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 6
+                    }, 
+                    "modifiers": [], 
+                    "name": "bin_width", 
+                    "references": [], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 7
+                    }, 
+                    "modifiers": [], 
+                    "name": "change_ratio", 
+                    "references": [], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 16, 
+                        "line": 8
+                    }, 
+                    "modifiers": [], 
+                    "name": "eui_type", 
+                    "references": [], 
+                    "type": "String", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 9
+                    }, 
+                    "modifiers": [], 
+                    "name": "mean", 
+                    "references": [], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 10
+                    }, 
+                    "modifiers": [], 
+                    "name": "median", 
+                    "references": [], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 11
+                    }, 
+                    "modifiers": [], 
+                    "name": "number_of_bins", 
+                    "references": [], 
+                    "type": "Integer", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 30, 
+                        "line": 12
+                    }, 
+                    "modifiers": [], 
+                    "name": "quartiles", 
+                    "references": [], 
+                    "type": "Map", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 13
+                    }, 
+                    "modifiers": [], 
+                    "name": "standard_deviation", 
+                    "references": [], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 14
+                    }, 
+                    "modifiers": [], 
+                    "name": "total_count", 
+                    "references": [], 
+                    "type": "Integer", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 15
+                    }, 
+                    "modifiers": [], 
+                    "name": "total_number_of_buildings", 
+                    "references": [], 
+                    "type": "Integer", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 16
+                    }, 
+                    "modifiers": [], 
+                    "name": "value_max", 
+                    "references": [], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }, 
+                {
+                    "location": {
+                        "column": 17, 
+                        "line": 17
+                    }, 
+                    "modifiers": [], 
+                    "name": "value_min", 
+                    "references": [], 
+                    "type": "Decimal", 
+                    "visibility": "PUBLIC"
+                }
+            ], 
+            "tableDeclaration": {
+                "location": {
+                    "column": 14, 
+                    "line": 1
+                }, 
+                "modifiers": [], 
+                "name": "Histogram", 
+                "references": [], 
+                "type": "Histogram"
+            }, 
+            "variables": []
+        }, 
+        "type": "ApexClass"
+    }, 
+    "Meta.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 11:10:43", 
+        "fileName": "unpackaged/classes/Meta.cls", 
+        "fullName": "Meta", 
+        "id": "01pi0000003H8B0AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 11:12:43", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "MobileSample_ngContactEdit.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:52:13", 
+        "fileName": "unpackaged/pages/MobileSample_ngContactEdit.page", 
+        "fullName": "MobileSample_ngContactEdit", 
+        "id": "066i0000002CcB4AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:52:13", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "MobileSample_ngContactList.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:52:13", 
+        "fileName": "unpackaged/pages/MobileSample_ngContactList.page", 
+        "fullName": "MobileSample_ngContactList", 
+        "id": "066i0000002CcB5AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:52:13", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "MobileSample_ngContactView.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:52:13", 
+        "fileName": "unpackaged/pages/MobileSample_ngContactView.page", 
+        "fullName": "MobileSample_ngContactView", 
+        "id": "066i0000002CcB6AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:52:13", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "MobileSample_ngHome.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:52:13", 
+        "fileName": "unpackaged/pages/MobileSample_ngHome.page", 
+        "fullName": "MobileSample_ngHome", 
+        "id": "066i0000002CcB7AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:52:13", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "MobileSample_ngIndex.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:52:13", 
+        "fileName": "unpackaged/pages/MobileSample_ngIndex.page", 
+        "fullName": "MobileSample_ngIndex", 
+        "id": "066i0000002CcB8AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:52:13", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "MobileSample_ngLogin.page": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 16:52:13", 
+        "fileName": "unpackaged/pages/MobileSample_ngLogin.page", 
+        "fullName": "MobileSample_ngLogin", 
+        "id": "066i0000002CcB9AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 16:52:13", 
+        "manageableState": "unmanaged", 
+        "type": "ApexPage"
+    }, 
+    "PanoptixAuthResponse.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 13:46:01", 
+        "fileName": "unpackaged/classes/PanoptixAuthResponse.cls", 
+        "fullName": "PanoptixAuthResponse", 
+        "id": "01pi0000003H8StAAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 13:47:22", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "PanoptixUtils.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 13:01:57", 
+        "fileName": "unpackaged/classes/PanoptixUtils.cls", 
+        "fullName": "PanoptixUtils", 
+        "id": "01pi0000003H8KEAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 14:16:56", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "PanoptixUtilsTest.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 13:02:59", 
+        "fileName": "unpackaged/classes/PanoptixUtilsTest.cls", 
+        "fullName": "PanoptixUtilsTest", 
+        "id": "01pi0000003H8KJAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 13:03:21", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Quartiles.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 11:18:51", 
+        "fileName": "unpackaged/classes/Quartiles.cls", 
+        "fullName": "Quartiles", 
+        "id": "01pi0000003H8BFAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 11:18:51", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "ScheduleEnergyData.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 13:04:34", 
+        "fileName": "unpackaged/classes/ScheduleEnergyData.cls", 
+        "fullName": "ScheduleEnergyData", 
+        "id": "01pi0000003H8KOAA0", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 13:20:28", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "TestingUtils.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 10:21:25", 
+        "fileName": "unpackaged/classes/TestingUtils.cls", 
+        "fullName": "TestingUtils", 
+        "id": "01pi0000003H89AAAS", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 10:23:10", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "TestingUtilsTest.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 10:23:52", 
+        "fileName": "unpackaged/classes/TestingUtilsTest.cls", 
+        "fullName": "TestingUtilsTest", 
+        "id": "01pi0000003H89EAAS", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 10:24:46", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }, 
+    "Totals.cls": {
+        "createdById": "005i0000001ObhDAAS", 
+        "createdByName": "Adam Daw", 
+        "createdDate": "2013-09-21 11:13:29", 
+        "fileName": "unpackaged/classes/Totals.cls", 
+        "fullName": "Totals", 
+        "id": "01pi0000003H8B5AAK", 
+        "lastModifiedById": "005i0000001ObhDAAS", 
+        "lastModifiedByName": "Adam Daw", 
+        "lastModifiedDate": "2013-09-21 11:25:28", 
+        "manageableState": "unmanaged", 
+        "type": "ApexClass"
+    }
+}

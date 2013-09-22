@@ -1,0 +1,124 @@
+<apex:page id="compare-page" controller="CompareController" showHeader="false" sidebar="false" standardStylesheets="false">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="{!URLFOR($Resource.bootstrap, 'bootstrap/css/bootstrap.min.css')}" rel="stylesheet"/>
+		<link href="{!URLFOR($Resource.bootstrap, 'bootstrap/css/bootstrap-responsive.min.css')}" rel="stylesheet"/>
+		<style>
+
+			@media only screen and (min-device-width: 1024px){
+				body {
+					padding-top: 60px;
+					padding-bottom: 200px;
+				}
+			}
+
+			@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+				body{
+					padding-bottom: 200px;
+				}
+				#compare-select-table{
+					width: 80%;
+				}
+			}
+		</style>
+	</head>
+	<body id="compare-body">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		      <div class="navbar-inner">
+		        <div class="container">
+		          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <a class="brand" href="#">Enviraudit</a>
+		          <div class="nav-collapse collapse">
+		            <ul class="nav">
+		              <li class="active"><a href="/apex/Enviraudit">My Buildings</a></li>
+		              <li><a href="/apex/EnvirauditAbout">About</a></li>
+		              <li><a href="/apex/EnvirauditContact">Contact</a></li>
+		            </ul>
+		          </div><!--/.nav-collapse -->
+		        </div>
+		      </div>
+		</div>
+		<div class="container">
+			<h1>{!myBuilding.Building_Name__c}</h1>
+		<table class="table" width="100%">
+			<th></th>
+			<tr><td style="text-align: left;">
+			<apex:outputText escape="false" value="{!myBuilding.Image__c}" ></apex:outputText></td>
+			<td style="vertical-align: top; text-align: right;">
+			<h2>{!myBuilding.My_EUI__c}</h2>
+			<p>{!myBuilding.Building_Address__c} <br />
+			{!myBuilding.City__c}, {!myBuilding.State__c}, {!myBuilding.Country__c}, {!myBuilding.Zip_Code__c}<br />
+			<apex:outputText value="Climate: {!myBuilding.Climate_Zone__c}" rendered="{!(myBuilding.Climate_Zone__c != null)}" /></p>
+			<hr />
+			<p>{!myBuilding.Classification__c}: {!myBuilding.Facility_Type__c}<apex:outputText value=" - {!myBuilding.Facility_Subtype__c}" rendered="{!(myBuilding.Facility_Subtype__c != null)}"></apex:outputText><br />
+			<apex:outputText escape="false" value="Floor Area: {!myBuilding.Floor_Area_Square_Meters__c} m&sup2;" rendered="{!(myBuilding.Floor_Area_Square_Meters__c != null)}" />
+			<hr />
+			<apex:outputText value="Average Usage: {!myBuilding.My_Usage__c} kWh" /><br />
+			<apex:outputText rendered="{!(myBuilding.Average_Building_Cost__c != 0)}" value="Average Cost: ${!myBuilding.Average_Building_Cost__c}" /><br />
+			<apex:outputText rendered="{!(myBuilding.Heating__c != null)}" value="Heating: {!myBuilding.Heating__c}" /><br/>
+			<apex:outputText rendered="{!(myBuilding.Lighting__c != null)}" value="Lighting: {!myBuilding.Lighting__c}" /><br />
+			<apex:outputText rendered="{!(myBuilding.Cooling__c != null && myBuilding.Cooling__c != 'None')}" value="Cooling: {!myBuilding.Cooling__c}" />
+			</p>
+			</td></tr>
+
+			</table>
+		<table class="table">
+				<tr>
+				  <th>Filter</th>
+				  <th>Average EUI</th>
+				  <th>Size of Group</th>
+				</tr>
+
+			<apex:repeat value="{!myBuilding.EUI_Analyses__r}" var="filter">
+				<tr>
+					<td>{!filter.Filter_Type__c}</td>
+					<td>{!filter.EUI__c}</td>
+					<td>{!filter.Peer_Group__c}</td>
+				</tr>
+			</apex:repeat>
+		</table>
+		<apex:form id="compare-form">
+		<h1>Compare</h1>
+		<table id="compare-select-table" width="100%">
+			<tr>
+				<td>Type:</td>
+				<td><apex:selectList onchange="buildsystemoptions(this);" id="build-system-select" value="{!build_system}" size="1">
+					<apex:selectOption itemValue="" itemLabel="Choose an Option" />
+					<apex:selectOption itemValue="heating" itemLabel="Heating" />
+					<apex:selectOption itemValue="cooling" itemLabel="Cooling" />
+					<apex:selectOption itemValue="lighting" itemLabel="Lighting" />
+					<apex:selectOption itemValue="air_flow_control" itemLabel="Air Flow Control" />
+					<apex:selectOption itemValue="window_glass_layers" itemLabel="Window Glass Layers" />
+					<apex:selectOption itemValue="window_glass_type" itemLabel="Window Glass Type" />
+				</apex:selectList></td>
+				<td>From:</td>
+				<td><apex:selectList id="from-system-select" value="{!from_system}" size="1">
+					<apex:selectOption itemValue="" itemLabel="Choose an Option" />
+				</apex:selectList></td>
+				<td>To:</td>
+				<td><apex:selectList id="to-system-select" value="{!to_system}" size="1">
+					<apex:selectOption itemValue="" itemLabel="Choose an Option" />
+				</apex:selectList></td>
+				
+			</tr>
+			<tr>
+				<td colspan="3"><button type="button" class="btn btn-large btn-primary text-center" onClick="compareOptions();">Compare</button></td>
+			</tr>
+		</table>
+		<div id="compareResults">
+		</div>
+		</apex:form>
+		</div>
+		<script>
+			var buildId = '{!myBuilding.Id}';
+		</script>
+		<apex:includeScript value="{!URLFOR($Resource.jquery, 'js/jquery-2.0.3.min.js')}" />
+		<apex:includeScript value="{!URLFOR($Resource.bootstrap, 'bootstrap/js/bootstrap.min.js')}" />
+		<apex:includeScript value="{!URLFOR($Resource.enviraudit, 'js/app.js')}" />
+
+	</body>
+</apex:page>

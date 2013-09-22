@@ -1,0 +1,40 @@
+<apex:page controller="CompareController" showHeader="false" sidebar="false" standardStylesheets="false">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="{!URLFOR($Resource.bootstrap, 'bootstrap/css/bootstrap.min.css')}" rel="stylesheet"/>
+		<link href="{!URLFOR($Resource.bootstrap, 'bootstrap/css/bootstrap-responsive.min.css')}" rel="stylesheet"/>
+		<style>
+		</style>
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		      <div class="navbar-inner">
+		        <div class="container">
+		          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <a class="brand" href="/apex/Enviraudit">Enviraudit</a>
+		          <div class="nav-collapse collapse">
+		            <ul class="nav">
+		              <li class="active"><a href="/apex/Enviraudit">My Buildings</a></li>
+		              <li><a href="/apex/EnvirauditAbout">About</a></li>
+		              <li><a href="/apex/EnvirauditContact">Contact</a></li>
+		            </ul>
+		          </div><!--/.nav-collapse -->
+		        </div>
+		      </div>
+		</div>
+		<div class="container">
+		<h1>My Buildings</h1>
+		<table class="table" width="100%">
+			<apex:repeat value="{!myBuildings}" var="building">
+				<tr><td><apex:outputLink value="/apex/Compare?id={!building.Id}"><h2>{!building.Building_Name__c}</h2></apex:outputLink></td></tr>
+			</apex:repeat>
+			</table>
+		</div>
+		<apex:includeScript value="{!URLFOR($Resource.jquery, 'js/jquery-2.0.3.min.js')}" />
+		<apex:includeScript value="{!URLFOR($Resource.bootstrap, 'bootstrap/js/bootstrap.min.js')}" />
+	</body>
+</apex:page>
